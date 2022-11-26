@@ -254,7 +254,21 @@ i.fa.fa-quote-left {
     background-color: #0f5db6;
     color: #FFF;
 }
+.btn{
+  background-color: #094080;
+    color:white  !important;
+    font-weight: 900;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    margin-top: 40px;
+    cursor: pointer;
 
+}
+.btn:hover{
+  background-color: #ccc;
+  color: #094080;
+}
 .thene{
   display: flex;
   gap: 70px;
@@ -808,6 +822,16 @@ p{
 }
 
 @media (max-width: 871px) {
+  .offer{
+    padding-top: 30px;
+  }
+  .offe{
+    padding-top: 30px;
+    font-size: 1.7em;
+  }
+  .jack{
+    margin-top: -19px;
+  }
   .main{
     padding-bottom: 60px;
     padding-top: 40px;
